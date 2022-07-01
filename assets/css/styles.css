@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "whoa-sauce-font";
+    src: url("../fonts/new_fun_font.ttf") format("truetype");
+}
+
+.texth {
+    font-family: whoa-sauce-font, sans-serif;
+    font-size: 100px;
+}
+
+@media screen and (max-width: 500px) {
+    .footer {
+        display: none !important;
+    }
+}
